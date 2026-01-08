@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diyar Akhgar</title>
+    <link rel="icon" href="/assets/logo-8vz8y4ug.ico" />
+    <meta
+      name="description"
+      content="Portfolio of Diyar Akhgar, Senior Frontend Developer"
+    />
+    <!-- Tailwind loader and config moved into index.tsx -->
+
+    <!-- Local fonts (served from assets/styles and assets/fonts) -->
+
+    <style>
+      /* Smooth Scrolling */
+      html {
+        scroll-behavior: smooth;
+      }
+
+      /* Premium Scrollbar */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: rgba(100, 100, 100, 0.2);
+        border-radius: 20px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgba(100, 100, 100, 0.4);
+      }
+
+      body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      /* Subtle Noise Texture - Reduced opacity */
+      .bg-noise {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        pointer-events: none;
+        z-index: 50;
+        opacity: 0.015; /* Reduced noise */
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='1'/%3E%3C/svg%3E");
+      }
+    </style>
+
+    <link rel="stylesheet" href="/index.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "https://esm.sh/react@^19.2.3",
+          "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+          "react/": "https://esm.sh/react@^19.2.3/",
+          "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+          "react-hot-toast": "https://esm.sh/react-hot-toast@^2.6.0"
+        }
+      }
+    </script>
+    <script type="module" crossorigin src="/assets/index-BVsTv2yO.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-I8_cq1Y9.css">
+  </head>
+  <body
+    class="bg-[#F2F2F7] dark:bg-[#000000] overflow-x-hidden transition-colors duration-700"
+  >
+    <div id="root"></div>
+  </body>
+</html>
